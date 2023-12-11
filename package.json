@@ -1,0 +1,45 @@
+{
+  "name": "client_desktop",
+  "productName": "client_desktop",
+  "version": "1.0.0",
+  "description": "My Electron application description",
+  "main": ".webpack/main",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "keywords": [],
+  "author": {
+    "name": "hslater95",
+    "email": "hasan.slater95@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.23.5",
+    "@babel/preset-react": "^7.23.3",
+    "@electron-forge/cli": "^7.2.0",
+    "@electron-forge/maker-deb": "^7.2.0",
+    "@electron-forge/maker-rpm": "^7.2.0",
+    "@electron-forge/maker-squirrel": "^7.2.0",
+    "@electron-forge/maker-zip": "^7.2.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.2.0",
+    "@electron-forge/plugin-webpack": "^7.2.0",
+    "@vercel/webpack-asset-relocator-loader": "^1.7.3",
+    "autoprefixer": "^10.4.16",
+    "babel-loader": "^9.1.3",
+    "css-loader": "^6.8.1",
+    "electron": "28.0.0",
+    "node-loader": "^2.0.0",
+    "postcss-loader": "^7.3.3",
+    "style-loader": "^3.3.3",
+    "tailwindcss": "^3.3.6"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
